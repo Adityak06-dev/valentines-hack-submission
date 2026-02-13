@@ -1,0 +1,170 @@
+/*Global*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+/*Header*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Martel+Sans:wght@900&family=Martel:wght@900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+header {
+    position: sticky;
+    top: 0px;
+}
+.upper-border {
+    background-color: black;
+    height: 80px;
+    overflow: hidden;
+}
+.upper-border img {
+    height: 100px;
+    width: 1000px;
+    position: relative;
+    top: -10px;
+}
+
+nav {
+    background-color: green;
+    color: white;
+}
+nav ul {
+    position: sticky;
+    list-style: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li {
+    font-family: "Roboto Mono", monospace;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a {
+    all: unset;
+    cursor: pointer;
+}
+
+
+/*Main*/
+main {
+    background-color: pink;
+    padding: 20px;
+}
+main img {
+    border: 2px solid black;
+}
+
+main h1 {
+    font-size: 80px;
+}
+main h2 {
+    font-size: 50px;
+}
+main p {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+main li {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+
+.strengths {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px;
+}
+.weaknesses {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.future-list {
+    font-weight: bold;
+}
+.character-list {
+    font-weight: bold;
+}
+.elaboration {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+
+/* Footer */
+footer {
+    border: 10px solid black; 
+}
+
+footer h1 {
+    font-size: 80px;
+}
+footer h2 {
+    font-size: 50px;
+}
+footer p {
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.final-question {
+    border: 2px solid purple;
+    background-color: skyblue;
+    height: 300px;
+
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+
+    padding: 20px;
+}
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+
+    gap: 20px;
+}
+
+.yes {
+    background-color: rgb(12, 196, 12);
+    border: 2px solid black;
+    padding: 15px;
+}
+.no {
+    background-color: red;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.spongebob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
