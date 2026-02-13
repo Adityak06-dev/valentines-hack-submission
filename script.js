@@ -51,8 +51,10 @@ noButton.addEventListener("click", () => {
         `;
     }
     else {
-        alert("Are you sure?");
+        noButton.textContent = "Still no";
+        alert("Please think about it");
     }
 
     // console.log(count);
+
 });
